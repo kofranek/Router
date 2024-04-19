@@ -18,11 +18,14 @@ const odkaz = ref('https://egolem.online/ironmetabolism/#liver/iron2sim.md')
   <RouterView />
 
   <main>
-    <a href="https://egolem.online/ironmetabolism/#liver/iron2sim.md", target="_blank">Železo v játrech</a>
     <h1>Moje odkazy</h1>
     <div class="card">
       <div v-for="example in examples" :key="example.id">
-        {{ example.title }}
+        <div>
+        <a :href="example.html" target="_blank" >
+          {{ example.title }}
+        </a> 
+        </div>
       </div>
     </div>
   </main>
