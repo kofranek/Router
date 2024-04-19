@@ -8,14 +8,14 @@ import { ref } from 'vue'
 <template>
   <header>
     <nav>
-      <RouterLink to="/skripta">Digitální skripta</RouterLink>
-      <RouterLink to="/">Ukázky simulátorů</RouterLink>
+      <RouterLink to="/examples">Ukázky</RouterLink>
+      <RouterLink to="/">Digitální skripta</RouterLink>
       <RouterLink to="/about">O aplikaci</RouterLink>
     </nav>
   </header>
 
   <RouterView />
-
+  
 </template>
 
 <style scoped>
