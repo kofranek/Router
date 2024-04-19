@@ -1,34 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import examples from './data.json'
 
-import {ref} from 'vue'
+import { ref } from 'vue'
 
-const odkaz = ref('https://egolem.online/ironmetabolism/#liver/iron2sim.md')
 </script>
 
 <template>
   <header>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <nav>
+      <RouterLink to="/skripta">Digitální skripta</RouterLink>
+      <RouterLink to="/">Ukázky simulátorů</RouterLink>
+      <RouterLink to="/about">O aplikaci</RouterLink>
+    </nav>
   </header>
 
   <RouterView />
 
-  <main>
-    <h1>Moje odkazy</h1>
-    <div class="card">
-      <div v-for="example in examples" :key="example.id">
-        <div>
-        <a :href="example.html" target="_blank" >
-          {{ example.title }}
-        </a> 
-        </div>
-      </div>
-    </div>
-  </main>
 </template>
 
 <style scoped>
