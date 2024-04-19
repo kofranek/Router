@@ -1,5 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import examples from './data.json'
+
+import {ref} from 'vue'
+
+const odkaz = ref('https://egolem.online/ironmetabolism/#liver/iron2sim.md')
 </script>
 
 <template>
@@ -11,6 +16,16 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
   <RouterView />
+
+  <main>
+    <a href="https://egolem.online/ironmetabolism/#liver/iron2sim.md", target="_blank">Železo v játrech</a>
+    <h1>Moje odkazy</h1>
+    <div class="card">
+      <div v-for="example in examples" :key="example.id">
+        {{ example.title }}
+      </div>
+    </div>
+  </main>
 </template>
 
 <style scoped>

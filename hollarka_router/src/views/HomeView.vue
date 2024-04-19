@@ -1,9 +1,13 @@
 <script setup>
+import { ref } from 'vue'
+
 
 </script>
 
 <template>
-  <main>
+<main>
 
-  </main>
+  <h1>home</h1>
+  
+</main>
 </template>
