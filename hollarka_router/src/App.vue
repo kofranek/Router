@@ -8,8 +8,8 @@ import { ref } from 'vue'
 <template>
   <header>
     <nav>
-      <RouterLink to="/examples">Ukázky</RouterLink>
       <RouterLink to="/">Digitální skripta</RouterLink>
+      <RouterLink to="/examples">Ukázky</RouterLink>
       <RouterLink to="/about">O aplikaci</RouterLink>
     </nav>
   </header>
