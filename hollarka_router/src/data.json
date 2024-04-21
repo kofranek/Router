@@ -51,21 +51,16 @@
     },
     {
         "id": 11,
-        "title": "Simulace metabolismu železa v játrech",
-        "html": "https://egolem.online/ironmetabolism/#liver/fullsim2.md"
-    },
-    {
-        "id": 12,
         "title": "Simulace RES v makrofágu",
         "html": "https://egolem.online/ironmetabolism/#spleen/spleensim.md"
     },
     {
-        "id": 13,
+        "id": 12,
         "title": "Simulace metabolismu železa v ostatních buňkách",
         "html": "https://egolem.online/ironmetabolism/#spleen/othersim.md"
     },
     {
-        "id": 14,
+        "id": 13,
         "title": "Simulace metabolismu železa v organismu",
         "html": "https://egolem.online/ironmetabolism/#spleen/completsim.md"
     }
